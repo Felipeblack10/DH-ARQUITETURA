@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap');
+
+
+main, footer{
+    text-align: center;
+    /*posicionamento do texto no main e no footer*/
+    font-family: 'Open Sans';
+    /*formato do texto*/
+    line-height: 28px;
+    /*espaçamento entre as linhas*/
+    color: #7d7987;
+    /*cor da fonte*/
+}
+
+.title{
+    font-family: 'Inter';
+    /*formato do texto*/
+    font-weight: 400;
+    /* fonte negrito*/
+    font-size: 49px;
+    /*tamanho da fonte*/
+    line-height: 56px;
+    /*espaçamento entre linhas*/
+    text-align: center;
+    /* texto posicionado ao centro*/
+    color: #000000;
+    /*cor da fonte*/
+}
+
+.title strong{
+    color:#6c63ff;
+    /* texto em negrito e tambem aplicando a cor na fonte*/
+}
+
+.text span{
+    color: #6c63ff;
+    /* texto em negrito e tambem aplicando a cor na fonte*/
+}
+
+hr{
+    background-color: #eceff2;
+    border: 1px solid #eceff2;
+    width: 800px;
+    /* aplicando cor de fundo, borde de 1px e tambem aplicando a cor, largura 800px*/
+}
+
+footer a {
+    color:#6c63ff;
+    margin:15px;
+    /*aplicando cor de fonte ao link e dando espaçamento com margin entre os links de 10 px*/
+    
+}
+
